@@ -1,0 +1,321 @@
+/* Navbar */
+
+.navbar-toggler:focus,
+.view:focus {
+    box-shadow: 0 0 0;
+}
+
+.navbar-toggler:active {
+    background-color: white;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(64, 149, 45) !important;
+}
+
+.navbar-nav {
+    margin-left: auto !important;
+}
+
+.navLogo {
+    width: 105px;
+    margin-left: 20px;
+}
+
+.nav-item {
+    margin: auto 15px;
+}
+
+.nav-link {
+    padding: 10px !important;
+    color: white !important;
+    border: 1px solid white !important;
+    border-radius: 20px;
+    font-weight: 400;
+}
+
+.cc{
+    width: 100;
+    margin-top: 100px; 
+}
+@media only screen and (max-width: 991px) {
+    .nav-link {
+        margin-top: 10px;
+    }
+}
+.navDropdown-menu {
+    background-color: rgb(64, 149, 45);
+    top: 57px;
+    left: -32px !important;
+}
+
+.navDropdown-item {
+    color: white;
+    font-weight: 400;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.navDropdown-item:hover,
+.navDropdown-item:focus,
+.active {
+    background-color: white !important;
+    color: rgb(64, 149, 45) !important;
+}
+
+.nav-link:focus,
+.navDropdown-item:focus,
+.active {
+    font-weight: 500 !important;
+}
+
+.container {
+    margin-top: 84px;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 416px) {
+    .container {
+        margin-top: 70px;
+        margin-bottom: 73px;
+    }
+    
+}
+
+
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+.ftext{
+    margin: 8px 3px;
+}
+
+.green {
+    color: rgb(64, 149, 45);
+    font-weight: 500;
+}
+
+
+/* Page 8 */
+
+.addTable {
+    height: 160px;
+}
+
+/* Responsive */
+
+@media only screen and (min-height: 615px) {
+    .addTable {
+        height: 240px;
+    }
+    
+}
+@media only screen and (min-height: 615px) and ( max-width: 416px) {
+    .addTable {
+        height: 220px;
+    }
+    
+    
+}
+@media only screen and (min-height: 640px) {
+    .addTable {
+        height: 220px;
+    }
+    .adTable {
+        margin-top: 95px;
+    }
+}
+
+@media only screen and (min-height: 650px) {
+    .addTable {
+        height: 230px;
+    }
+    .adTable {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (min-height: 660px) {
+    .addTable {
+        height: 240px;
+    }
+    .adTable {
+        margin-top: 100px;
+    }
+}
+@media only screen and (min-height: 670px) {
+    .addTable {
+        height: 270px;
+    }
+    .adTable {
+        margin-top: 110px;
+    }
+}
+@media only screen and (min-height: 690px) {
+    .addTable {
+        height: 290px;
+    }
+    .adTable {
+        margin-top: 120px;
+    }
+}
+
+@media only screen and (min-height: 710px) {
+    .addTable {
+        height: 310px;
+    }
+    .adTable {
+        margin-top: 130px;
+    }
+}
+
+@media only screen and (min-height: 720px) {
+    .addTable {
+        height: 330px;
+    }
+    .adTable {
+        margin-top: 135px;
+    }
+    
+}
+
+@media only screen and (min-height: 770px) {
+    .addTable {
+        height: 370px;
+    }
+    .adTable {
+        margin-top: 160px;
+    }
+}
+@media only screen and (min-height: 800px) {
+    .addTable {
+        height: 410px;
+    }
+    .adTable {
+        margin-top: 175px;
+    }
+}
+@media only screen and (min-height: 900px) {
+    .addTable {
+        height: 500px;
+    }
+    .adTable {
+        margin-top: 225px;
+    }
+}
+@media only screen and (min-height: 950px) {
+    .addTable {
+        height: 550px;
+    }
+    .adTable {
+        margin-top: 250px;
+    }
+}
+@media only screen and (min-height: 1024px) {
+    .addTable {
+        height: 644px;
+    }
+    .adTable {
+        margin-top: 287px;
+    }
+}
+@media only screen and (min-height: 1100px) {
+    .addTable {
+        height: 700px;
+    }
+    .adTable {
+        margin-top: 325px;
+    }
+}
+@media only screen and (min-height: 1280px) {
+    .addTable {
+        height: 880px;
+    }
+    .adTable {
+        margin-top: 415px;
+    }
+}
+@media only screen and (min-height: 1365px) {
+    .addTable {
+        height: 985px;
+    }
+    .adTable {
+        margin-top: 470px;
+    }
+}
+.addTable>tbody>tr:nth-of-type(even), .adTable>tbody>tr:nth-of-type(even) {
+    --bs-table-accent-bg: var(--bs-table-striped-bg) !important;
+    color: var(--bs-table-striped-color) !important;
+}
+.addNew {
+    margin-top: 150px ;
+    margin-bottom: 20px;
+    }
+
+.newMember {
+    padding: 10px 15px;
+    margin-bottom: 4px;
+    border-radius: 7px;
+}
+
+.newMember:focus {
+    box-shadow: 0 0 0;
+    background-color: #0d6efd;
+}
+
+.noAddNewMember {
+    border: 2px solid black;
+    margin: 0 5px 8px 0;
+    height: 45px;
+    width: 100px;
+    border-radius: 8px;
+}
+
+.gray {
+    background-color: gainsboro;
+}
+
+.name,
+.domain,
+.year {
+    border: 2px solid black;
+    height: 50px;
+    margin: 10px;
+    width: 80%;
+    border-radius: 8px;
+}
+
+.submit {
+    background-color: rgb(64, 149, 45);
+    color: white !important;
+    margin: 16px 0 10px 0;
+    padding: 10px 40px;
+    border-radius: 7px;
+}
+
+.submit:focus {
+    box-shadow: 0 0 0 0.20rem rgb(64, 149, 45, .5);
+}
+
+.submit:hover {
+    background-color: rgb(40, 124, 21);
+}
+
+/* Additional Page */
+
+.view {
+    border-radius: 7px;
+}
+
+.view:focus {
+    box-shadow: 0 0 0;
+    background-color: #0d6efd;
+}

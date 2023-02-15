@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Attendence EXCOM & HR</title>
+    <link rel="stylesheet" href="Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+ <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a><img class="navLogo" src="Images/Logo/Navbar-1.png" alt="IEEE PES NEDUET Logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Teams
+          </a>
+                    <ul class="dropdown-menu navDropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item navDropdown-item active" href="viewteams.html">View Teams</a></li>
+                        <li><a class="dropdown-item navDropdown-item " href="add.html">Add Members</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="Additional.html">View Attendence</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mark.html">Mark Attendence</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+ <!-- Table -->
+ <div class="container">
+    <table class="table adTable table-borderless">
+        <thead>
+            <tr class="gray text-center">
+                <th scope="col">#</th>
+                <th scope="col">Domain Name</th>
+                <th scope="col">Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="text-center">
+                <th scope="row">1</th>
+                <td>Promotion</td>
+                <td><button type="button" onclick="window.location.href = 'edit.html'" class="btn btn-primary view">Edit</button></td>
+            </tr>
+            <tr class="text-center">
+                <th scope="row">2</th>
+                <td>R&D</td>
+                <td><button type="button" onclick="window.location.href = 'edit.html'" class="btn btn-primary view">Edit</button></td>
+            </tr>
+            <tr class="text-center">
+                <th scope="row">3</th>
+                <td>IT</td>
+                <td><button type="button" onclick="window.location.href = 'edit.html'" class="btn btn-primary view">Edit</button></td>
+            </tr>
+            <tr class="text-center">
+                <th scope="row">4</th>
+                <td>EM & L</td>
+                <td><button type="button" onclick="window.location.href = 'edit.html'" class="btn btn-primary view">Edit</button></td>
+            </tr>
+            <tr class="text-center">
+                <th scope="row">5</th>
+                <td>Documentation</td>
+                <td><button type="button" onclick="window.location.href = 'edit.html'" class="btn btn-primary view">Edit</button></td>
+            </tr>
+            <tr class="text-center">
+                <th scope="row">6</th>
+                <td>Graphics</td>
+                <td><button type="button" onclick="window.location.href = 'edit.html'" class="btn btn-primary view">Edit</button></td>
+            </tr>
+            <tr class="text-center">
+                <th scope="row">7</th>
+                <td>Marketing</td>
+                <td><button type="button" onclick="window.location.href = 'edit.html'" class="btn btn-primary view">Edit</button></td>
+            </tr>
+            <tr class="text-center">
+                <th scope="row">8</th>
+                <td>HR</td>
+                <td><button type="button" onclick="window.location.href = 'edit.html'" class="btn btn-primary view">Edit</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+    <!-- Footer -->
+    <div class="footer bg-dark">
+        <div class="mr-auto ftext text-center">
+            <p class="text-light m-1 d-inline-flex">Designed and Developed by</p>
+            <p class="green m-1 d-inline-flex">IEEE PES NEDUET IT TEAM</p>
+        </div>
+    </div>
+    <script src="Bootstrap/bootstrap.bundle.min.js"></script>
+
+</html>
